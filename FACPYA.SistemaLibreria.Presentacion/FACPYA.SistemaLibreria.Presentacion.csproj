@@ -67,16 +67,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="carritoFlotante.aspx" />
+    <Content Include="carroCompras.aspx" />
+    <Content Include="datos.aspx" />
+    <Content Include="envio.aspx" />
+    <Content Include="estilos\card.css" />
+    <Content Include="estilos\carussel.css" />
+    <Content Include="estilos\index.css" />
     <Content Include="Index.aspx" />
+    <Content Include="metodoPago.aspx" />
+    <Content Include="pago.aspx" />
+    <Content Include="productoDetalle.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carritoFlotante.aspx.cs">
+      <DependentUpon>carritoFlotante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="carritoFlotante.aspx.designer.cs">
+      <DependentUpon>carritoFlotante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="carroCompras.aspx.cs">
+      <DependentUpon>carroCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="carroCompras.aspx.designer.cs">
+      <DependentUpon>carroCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="datos.aspx.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datos.aspx.designer.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="envio.aspx.cs">
+      <DependentUpon>envio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="envio.aspx.designer.cs">
+      <DependentUpon>envio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="metodoPago.aspx.cs">
+      <DependentUpon>metodoPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="metodoPago.aspx.designer.cs">
+      <DependentUpon>metodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pago.aspx.cs">
+      <DependentUpon>pago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pago.aspx.designer.cs">
+      <DependentUpon>pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productoDetalle.aspx.cs">
+      <DependentUpon>productoDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productoDetalle.aspx.designer.cs">
+      <DependentUpon>productoDetalle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -88,6 +147,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

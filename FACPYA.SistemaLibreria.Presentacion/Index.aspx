@@ -6,12 +6,13 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Pagina principal</title>
+    <!-- Importaciones Necesarias -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./estilos/carussel.css">
+    <link rel="stylesheet" href="/static/css/carussel.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
@@ -21,35 +22,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <link rel="stylesheet" href="./estilos/index.css" />
-    <link rel="stylesheet" href="./estilos/card.css" />
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/card.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/barraCabecera.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    
 </head>
-<body class="bg-light">
+    <!--
     <form id="form1" runat="server">
         <div>
             Hola mundo
         </div>
     </form>
+    -->
+<body class="bg-light letra   ">
 
     <!-- APARTADO HEADER -->
     <header>
-        <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="row">
-            <div class="col-12 bg-danger">
-                <p class="p-2"></p>
-            </div>
-        </div>
+
         <!-- APARTADO DE LA LINEA ROJA FIN-->
 
         <!-- PRIMER NAV  -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+        <!-- APARTADO DE LA LINEA ROJA -->
+        <div class="barra">
 
+        </div>
+        <nav class="navbar navbar-expand-lg d-flex flex-column">
+            <div class="container-fluid">
                 <!-- IMAGEN FACPYA LOGO   -->
                 <div class="navbar bg-body-tertiary">
                     <div class="container-fluid">
                         <a class="navbar-brand text-center" href="#">
-                            <img src="/static/img/logo_facpya.png" alt="Bootstrap" width="" height="">
+                            <img src="/static/img/logo_facpya.png" class="w-100 h-50" alt="Bootstrap" width="" height="">
                         </a>
 
                     </div>
@@ -307,6 +315,7 @@
             </div>
         </nav>
         <!-- PRIMER NAV FIN  -->
+        <hr class="text-black" />
 
         <!-- SEGUNDO NAV CATEGORIAS   -->
         <nav class="navbar navbar-expand-lg ">
@@ -433,14 +442,14 @@
 
         </nav>
         <!-- SEGUNDO NAV CATEGORIAS  FIN  -->
-
+    
 
 
     </header>
     <!-- APARTADO HEADER FIN-->
 
     <!-- INICIO CONTAINER CARRUSSEL  -->
-    <div class="container">
+    <div class="container ">
 
         <div class="container-lg ">
             <!-- INICIO CONTAINER CARRUSSEL CARRUSSEL  -->
@@ -519,7 +528,7 @@
 
     <!-- FIN CONTAINER CARRUSSEL  -->
 
-    <main>
+    <main class="">
 
         <!-- Tab-bar -->
         <!-- Nos permite cambiar entre el contenido en este caso los productos sin necesidad de recargar la pagina -->
@@ -556,7 +565,7 @@
 
         <!-- Contenido -->
         <!-- Contenedor padre de todas las tarjetas de productos -->
-        <div class="tab-content" id="pills-tabContent">
+        <div class="tab-content " id="pills-tabContent">
             <!-- Productos segmentados segun su categoria -->
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <section>
@@ -678,36 +687,33 @@
             </div>
         </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="bg-secondary text-center text-white row vh-100-sm justify-content-center ">
-        <h1 class="pb-2 pt-1">FACPYA</h1>
-        <!-- Grid container -->
-        <div class="container">
-            <!-- Section: Social media -->
-            <section class="mb-4 row">
+        <!-- Inicio del footer -->
+        <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <i class="bi bi-caret-up-fill simboloFlecha"></i>
+          </button>
+          <footer class="collapse bg-secondary text-light" id="collapseExample">
+            <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
+            <!-- Grid container -->
+            <div class="container">
+              <!-- Section: Social media -->
+              <section class="mb-4 row">
                 <!-- Linea izquierda -->
-                <div class="line line-left col-6">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-50" href="#!" role="button"><i class="bi bi-facebook w-100"></i></a>
-                </div>
-            
+                <div class="line line-left col"></div>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
                 <!-- Linea derecha -->
-                <div class="line line-right col-6">
-                    <!-- Whatsapp -->
-                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-50" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
-                </div>
-            </section>
-            <!-- Section: Text -->
-            <section class=" text-center">
-                <p class="">Facultad de Contaduría Pública y Administración</p>
-                <p>Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México</p>
-                <p>Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249</p>
-            </section>
+                <div class="line line-right col"></div>
+              </section>
+              <!-- Section: Text -->
+              <section class="mb-4">
+                <p class="pb-3">
+                  Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
+                </p>
+              </section>
             <!-- Copyright -->
-        </div>
-    </footer>
-    <!-- Footer -->
-
+          </footer>
+           <script src="static/js/footer.js"></script>
 </body>
 </html>

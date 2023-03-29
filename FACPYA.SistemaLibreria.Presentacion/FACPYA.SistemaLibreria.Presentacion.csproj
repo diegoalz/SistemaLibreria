@@ -71,13 +71,41 @@
     <Content Include="carroCompras.aspx" />
     <Content Include="datos.aspx" />
     <Content Include="envio.aspx" />
-    <Content Include="estilos\card.css" />
-    <Content Include="estilos\carussel.css" />
-    <Content Include="estilos\index.css" />
+    <Content Include="static\css\animaciones.css" />
+    <Content Include="static\css\barraCabecera.css" />
+    <Content Include="static\css\botones.css" />
+    <Content Include="static\css\card.css" />
+    <Content Include="static\css\carussel.css" />
+    <Content Include="static\css\footer.css" />
+    <Content Include="static\css\index.css" />
     <Content Include="Index.aspx" />
     <Content Include="metodoPago.aspx" />
     <Content Include="pago.aspx" />
     <Content Include="productoDetalle.aspx" />
+    <Content Include="static\css\scroll.css" />
+    <Content Include="static\img\anuncio1.jpg" />
+    <Content Include="static\img\anuncio2.jpg" />
+    <Content Include="static\img\anuncio3.jpg" />
+    <Content Include="static\img\crearcuenta.jpg" />
+    <Content Include="static\img\dante.PNG" />
+    <Content Include="static\img\dante2.png" />
+    <Content Include="static\img\elefante.png" />
+    <Content Include="static\img\estatus0.png" />
+    <Content Include="static\img\estatus1.png" />
+    <Content Include="static\img\estatus2.png" />
+    <Content Include="static\img\estatus3.png" />
+    <Content Include="static\img\iniciarsesion.jpg" />
+    <Content Include="static\img\libro.png" />
+    <Content Include="static\img\logo_facpya.png" />
+    <Content Include="static\img\oxxo.png" />
+    <Content Include="static\img\souvenir.png" />
+    <Content Include="static\img\sueter.png" />
+    <Content Include="static\img\sueter1.png" />
+    <Content Include="static\img\sueter2.png" />
+    <Content Include="static\img\sueter3.png" />
+    <Content Include="static\img\tarjeta.png" />
+    <Content Include="static\js\footer.js" />
+    <Content Include="static\js\imagen.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,9 +176,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="static\img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

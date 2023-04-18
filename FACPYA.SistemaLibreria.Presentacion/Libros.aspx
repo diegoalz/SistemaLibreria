@@ -612,7 +612,7 @@
                                                     class="w-100" />
 
 
-                                                <a href="/producto_detalle.html">
+                                                 <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i
@@ -647,7 +647,7 @@
                                                 <img style="height: 20em;"
                                                     src="/static/img/libro.png"
                                                     class="w-100" />
-                                                <a href="/producto_detalle.html">
+                                                 <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i
@@ -682,7 +682,7 @@
                                                 <img style="height: 20em;"
                                                     src="/static/img/libro.png"
                                                     class="w-100" />
-                                                <a href="/producto_detalle.html">
+                                                 <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i

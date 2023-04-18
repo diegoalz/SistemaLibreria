@@ -589,7 +589,7 @@
                                         
                                         </div>
 
-                                        <a href="/producto_detalle.html">
+                                        <a href="productoDetalle.aspx">
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i
@@ -623,7 +623,7 @@
                                         <img style="height: 20em;"
                                             src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
                                             class="w-100" />
-                                        <a href="/producto_detalle.html">
+                                        <a href="productoDetalle.aspx">
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i
@@ -657,7 +657,7 @@
                                         <img style="height: 20em;"
                                             src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
                                             class="w-100" />
-                                        <a href="/producto_detalle.html">
+                                        <a href="productoDetalle.aspx">
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i

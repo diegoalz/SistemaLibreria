@@ -78,11 +78,11 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         
                         <li class="nav-item">
-                            <a class=" btn " href="/LOGINS/crear_cuenta.html">Crear Cuenta</a>
+                            <a class=" btn " href="CrearCuenta.aspx">Crear Cuenta</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class=" btn  " href="/LOGINS/iniciar_sesion.html">Ingresar</a>
+                            <a class=" btn  " href="IniciarSesion.aspx">Ingresar</a>
                         </li>
 
                         <li class="nav-item  ">
@@ -323,7 +323,7 @@
 
                     <!-- INICIO LI-->
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/index.html"> <i
+                        <a class="nav-link " aria-current="page" href="Index.aspx"> <i
                             class="material-symbols-outlined">
                             home</i>Inicio
                         </a>
@@ -332,7 +332,7 @@
 
                     <!-- INICIO LI-->
                     <li class="nav-item">
-                        <a class="nav-link" href="/HOME/dante.html"><i class="material-symbols-outlined"> pets</i>Dante </a>
+                        <a class="nav-link" href="Dante.aspx"><i class="material-symbols-outlined"> pets</i>Dante </a>
                     </li>
 
                     <!-- INICIO LI-->
@@ -349,7 +349,7 @@
                         <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
                         <ul class="dropdown-menu">
                             <div class="dropdown-divider"></div>
-                            <li><a class="dropdown-item" href="/HOME/ropa.html">Ropa</a></li>
+                            <li><a class="dropdown-item" href="Ropa.aspx">Ropa</a></li>
                             <li><a class="dropdown-item" href="#">Gorras</a></li>
                             <li><a class="dropdown-item" href="#">Playeras</a></li>
                         </ul>
@@ -368,7 +368,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <div class="dropdown-divider"></div>
-                            <li><a class="dropdown-item" href="/HOME/souvenirs.html">Souvenirs</a></li>
+                            <li><a class="dropdown-item" href="Souvenirs.aspx">Souvenirs</a></li>
                             <li><a class="dropdown-item" href="#">Plumas</a></li>
                             <li><a class="dropdown-item" href="#">Tazas</a></li>
                         </ul>
@@ -391,7 +391,7 @@
 
                         <ul class="dropdown-menu">
                             <div class="dropdown-divider"></div>
-                            <li><a class="dropdown-item" href="/HOME/libros.html">Libros</a></li>
+                            <li><a class="dropdown-item" href="Libros.aspx">Libros</a></li>
                             <li><a class="dropdown-item" href="#">Contabilidad</a></li>
                             <li><a class="dropdown-item" href="#">Derecho</a></li>
                         </ul>
@@ -435,7 +435,7 @@
   <!-- APARTADO HEADER FIN-->
 
    
-    <main>  
+    <main class="container-fluid">  
         <!-- AQUI VA DANIEL  -->
 
      

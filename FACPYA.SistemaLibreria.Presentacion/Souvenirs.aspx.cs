@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FACPYA.SistemaLibreria.Presentacion
 {
-    public partial class CarroCompras : System.Web.UI.Page
+    public partial class Souvenirs : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

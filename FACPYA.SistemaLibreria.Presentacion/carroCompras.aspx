@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="carroCompras.aspx.cs" Inherits="FACPYA.SistemaLibreria.Presentacion.carroCompras" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CarroCompras.aspx.cs" Inherits="FACPYA.SistemaLibreria.Presentacion.CarroCompras" %>
 
 <!DOCTYPE html>
 

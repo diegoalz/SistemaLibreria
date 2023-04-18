@@ -67,10 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="carritoFlotante.aspx" />
-    <Content Include="carroCompras.aspx" />
+    <Content Include="CarritoFlotante.aspx" />
+    <Content Include="CarroCompras.aspx" />
+    <Content Include="CrearCuenta.aspx" />
+    <Content Include="Dante.aspx" />
     <Content Include="datos.aspx" />
     <Content Include="envio.aspx" />
+    <Content Include="IniciarSesion.aspx" />
+    <Content Include="Libros.aspx" />
+    <Content Include="Ropa.aspx" />
+    <Content Include="Souvenirs.aspx" />
     <Content Include="static\css\animaciones.css" />
     <Content Include="static\css\barraCabecera.css" />
     <Content Include="static\css\botones.css" />
@@ -109,19 +115,33 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="carritoFlotante.aspx.cs">
-      <DependentUpon>carritoFlotante.aspx</DependentUpon>
+    <Compile Include="CarritoFlotante.aspx.cs">
+      <DependentUpon>CarritoFlotante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="carritoFlotante.aspx.designer.cs">
-      <DependentUpon>carritoFlotante.aspx</DependentUpon>
+    <Compile Include="CarritoFlotante.aspx.designer.cs">
+      <DependentUpon>CarritoFlotante.aspx</DependentUpon>
     </Compile>
-    <Compile Include="carroCompras.aspx.cs">
-      <DependentUpon>carroCompras.aspx</DependentUpon>
+    <Compile Include="CarroCompras.aspx.cs">
+      <DependentUpon>CarroCompras.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="carroCompras.aspx.designer.cs">
-      <DependentUpon>carroCompras.aspx</DependentUpon>
+    <Compile Include="CarroCompras.aspx.designer.cs">
+      <DependentUpon>CarroCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearCuenta.aspx.cs">
+      <DependentUpon>CrearCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearCuenta.aspx.designer.cs">
+      <DependentUpon>CrearCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dante.aspx.cs">
+      <DependentUpon>Dante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dante.aspx.designer.cs">
+      <DependentUpon>Dante.aspx</DependentUpon>
     </Compile>
     <Compile Include="datos.aspx.cs">
       <DependentUpon>datos.aspx</DependentUpon>
@@ -143,6 +163,20 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IniciarSesion.aspx.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IniciarSesion.aspx.designer.cs">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Libros.aspx.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Libros.aspx.designer.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
     </Compile>
     <Compile Include="metodoPago.aspx.cs">
       <DependentUpon>metodoPago.aspx</DependentUpon>
@@ -166,6 +200,20 @@
       <DependentUpon>productoDetalle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ropa.aspx.cs">
+      <DependentUpon>Ropa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ropa.aspx.designer.cs">
+      <DependentUpon>Ropa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Souvenirs.aspx.cs">
+      <DependentUpon>Souvenirs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Souvenirs.aspx.designer.cs">
+      <DependentUpon>Souvenirs.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

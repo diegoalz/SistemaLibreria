@@ -11,7 +11,7 @@ namespace FACPYA.SistemaLibreria.Presentacion
 {
 
 
-    public partial class carritoFlotante
+    public partial class CarritoFlotante
     {
     }
 }

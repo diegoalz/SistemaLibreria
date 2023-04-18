@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="carritoFlotante.aspx.cs" Inherits="FACPYA.SistemaLibreria.Presentacion.carritoFlotante" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CarritoFlotante.aspx.cs" Inherits="FACPYA.SistemaLibreria.Presentacion.CarritoFlotante" %>
 
 <!DOCTYPE html>
 

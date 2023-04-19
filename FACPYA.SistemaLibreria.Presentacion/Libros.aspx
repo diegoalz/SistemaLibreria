@@ -142,7 +142,7 @@
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link" href="/HOME/dante.html"><i class="material-symbols-outlined">pets</i>Dante </a>
+                            <a class="nav-link" href="Dante.aspx"><i class="material-symbols-outlined">pets</i>Dante </a>
                         </li>
 
                         <!-- INICIO LI-->

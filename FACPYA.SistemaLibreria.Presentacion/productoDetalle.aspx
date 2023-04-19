@@ -34,8 +34,11 @@
 
     <!-- APARTADO HEADER -->
     <header>
-        <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="barra">
+         <!-- APARTADO DE LA LINEA ROJA -->
+        <div class="row">
+            <div class="col-12 bg-danger">
+                <p class="p-2"></p>
+            </div>
         </div>
         <!-- APARTADO DE LA LINEA ROJA FIN-->
 
@@ -250,16 +253,9 @@
 
             <div class="col-8 ">
 
-
-
-
                 <div class="row vh-100-sm justify-content-center ">
                     <div class="col-xl-6 col-sm-12 mb-sm-4 ">
                         <div>
-
-
-
-
                             <img src="/static/img/sueter.png" id="grande" class="img-fluid w-100 h-100" alt="">
                         </div>
 
@@ -357,19 +353,11 @@
 
                                                         </div>
 
-
-
-
-
-
                                                     </div>
 
-
                                                 </div>
-
-
                                                 <div class="">
-                                                    <a href="/carro_compras.html" class="btn btn-danger w-100 p-3 boton cinco">
+                                                    <a href="CarroCompras.aspx" class="btn btn-danger w-100 p-3 boton cinco">
                                                         <div class="icono">
                                                             <i class="fa-solid fa-cart-shopping"></i>
                                                         </div>
@@ -385,17 +373,8 @@
                                     </div>
                                 </form>
                             </div>
-
-
-                            
-                               
-    
-                                
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>

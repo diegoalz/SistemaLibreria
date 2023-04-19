@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -27,7 +27,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        
+
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/scroll.css">
     <link rel="stylesheet" href="/static/css/card.css">
@@ -38,9 +38,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <title>SOUVENIRS</title>
 </head>
-<body class="bg-light letra ">
+<body class="bg-light letra container-fluid ">
 
-     <!-- APARTADO HEADER -->
+    <!-- APARTADO HEADER -->
     <header>
         <!-- APARTADO DE LA LINEA ROJA -->
         <div class="row">
@@ -95,210 +95,8 @@
                                 <a class=" btn  " href="IniciarSesion.aspx">Ingresar</a>
                             </li>
 
-                            <li class="nav-item  ">
+                            
 
-                                <div class="">
-                                    <!-- BTN ACTIVAR MODAL CARRITO     -->
-                                    <a class="btn  text-center " id="btnAgregarPrestadorMenu" data-bs-toggle="modal"
-                                        data-bs-target="#myModal" aria-atomic="False">
-                                        <i class="bi bi-cart "></i>
-                                    
-            
-                                    </a>
-                                </div>
-                                
-                                <!-- CONTENEDOR DONDE esta el modal carrito    -->
-                                <div class="row">
-                                    <div class="modal fade modal-dialog-scrollable" id="myModal" role="dialog">
-                                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                
-                                            <div class="modal-content">
-                
-                                                <!-- BTN CERRAR CARRITO VISTA    -->
-                                                <div class="modal-header">
-                                                    <h2 class="modal-title text-black text-center">Carrito</h2>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close">
-                                                    </button>
-                
-                                                </div>
-                
-                                                <div class="modal-body">
-                
-                
-                
-                                                
-                                                    <!-- CONTENEDOR DONDE EL PRODUCTO CARRITO 1   -->
-                                                    <div class="d-flex justify-content-around row">
-                                                        <div class="row vh-100-sm justify-content-left " >
-
-                                                            <!-- COL 4 IZQUIERDA IMAGEN   -->
-                                                            <div class="col-4  p-2" >
-                                                
-                                                                <div class="d-flex justify-content-center">
-                                                                    <div class="">
-                                                                        <div class="container-fluid">
-                                                                            <div class="navbar-brand text-center " >
-                                                                                <img src="/static/img/dante.PNG" alt="Bootstrap" >
-                                                                            </div>
-                                                            
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            
-                                                
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 6 DESCRIPCION PRODUCTO  -->
-                                                            <div class="col-6  p-2" >
-                                            
-                                                            <div class="">
-                                                                    <h3 class="text-right">Dante Original</h3>
-                                                                    <p>1 x MXN $100.00</p>
-                                                                    <p>Chico</p>
-                                                                    <p>Gris</p>
-                                                            </div>
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 2 BTN QUITAR PRODUCTO   -->
-                                                            <div class="col-2  p-2" >
-                                                                <a href="">
-                                                                    <i class="bi bi-x-circle"></i>
-                                                                </a>
-                                                            
-                                                            
-                                                            </div>
-                                                
-                                                        
-                                                
-                                                    
-                                                        </div>
-                
-                                                    </div>
-
-                                                    <!-- CONTENEDOR DONDE EL PRODUCTO CARRITO 2 ETC...   -->
-                                                    <div class="d-flex justify-content-around row">
-                                                        <div class="row vh-100-sm justify-content-left " >
-
-                                                            <!-- COL 4 IZQUIERDA IMAGEN   -->
-                                                            <div class="col-4  p-2" >
-                                                
-                                                                <div class="d-flex justify-content-center">
-                                                                    <div class="">
-                                                                        <div class="container-fluid">
-                                                                            <div class="navbar-brand text-center " >
-                                                                                <img src="/static/img/dante.PNG" alt="Bootstrap" >
-                                                                            </div>
-                                                            
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            
-                                                
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 6 DESCRIPCION PRODUCTO  -->
-                                                            <div class="col-6  p-2" >
-                                            
-                                                            <div class="">
-                                                                    <h3 class="text-right">Dante Original</h3>
-                                                                    <p>1 x MXN $100.00</p>
-                                                                    <p>Chico</p>
-                                                                    <p>Gris</p>
-                                                            </div>
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 2 BTN QUITAR PRODUCTO   -->
-                                                            <div class="col-2  p-2" >
-                                                                <a href="">
-                                                                    <i class="bi bi-x-circle"></i>
-                                                                </a>
-                                                            
-                                                            
-                                                            </div>
-                                                
-                                                        
-                                                
-                                                    
-                                                        </div>
-                
-                                                    </div>
-
-
-                                                    <!-- CONTENEDOR SUBTOTAL PRODUCTOS   -->
-                                                    <div class="d-flex justify-content-around row">
-                                                        <div class="row vh-100-sm justify-content-left " >
-
-                                                            <!-- COL 4 DONDE APARECE LA ETIQUETA SUBTOTAL  -->
-                                                            <div class=" col-lg-4  col-sm-4    p-2" >
-                                                
-                                                                <div class="">
-                                                                    <h5 class="text-right">SubTotal:</h5>
-                                                                </div>
-                                                
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 6 DE ESPACIO   -->
-                                                            <div class="col-lg-6  col-sm-0  p-2" >
-                                                
-                                                                <div class="">
-                                                                    
-                                                            </div>
-                                                
-                                                                
-                                                            </div>
-
-                                                            <!-- COL 2 DEL SUBTOTAL   -->
-                                                            <div class="col-lg-2 col-sm-4  p-2" >
-                                                
-                                                                <div class="">
-                                                                <h5>MNX $ 200.00</h5>
-                                                            </div>
-                                                
-                                                                
-                                                            </div>
-
-                                                    
-                                                        
-                                                
-                                                    
-                                                        </div>
-                
-                                                    </div>
-                                                
-                                                    
-                                                
-                                                </div>
-                                                
-                                                <!-- CONTENEDOR BOTONES ACCIONES DEL MODAL   -->
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">
-                                                        Cerrar</button>
-
-                                                    <a href="/carro_compras.html"  class="btn btn-info "  >
-                                                        <i class="bi bi-cart "></i>
-                                                    </a>
-                
-                                                    <a href="/datos.html" ID="btnAgregarPrestadorModal" class="btn btn-success "  >
-                                                        <i class="bi bi-wallet"></i>
-                                                    </a>
-                
-                
-                                                </div>
-                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                        
 
                         </ul>
                     </div>
@@ -306,7 +104,7 @@
                     <!-- CONTENEDOR DONDE PONEMOS LOS LINKS FIN   -->
                 </div>
                 <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
-            
+
             </div>
         </nav>
         <!-- PRIMER NAV FIN  -->
@@ -333,16 +131,15 @@
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="Index.aspx"> <i
-                                class="material-symbols-outlined">
-                                home</i>Inicio
+                            <a class="nav-link " aria-current="page" href="Index.aspx"><i
+                                class="material-symbols-outlined">home</i>Inicio
                             </a>
                         </li>
                         <!-- FIN LI-->
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link" href="Dante.aspx"><i class="material-symbols-outlined"> pets</i>Dante </a>
+                            <a class="nav-link" href="Dante.aspx"><i class="material-symbols-outlined">pets</i>Dante </a>
                         </li>
 
                         <!-- INICIO LI-->
@@ -351,7 +148,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Ropa
+                                <i class="material-symbols-outlined">styler</i> Ropa
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
@@ -373,7 +170,7 @@
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Souvenirs
+                                <i class="material-symbols-outlined">styler</i> Souvenirs
 
                             </a>
                             <ul class="dropdown-menu">
@@ -391,7 +188,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> menu_book</i> Libros
+                                <i class="material-symbols-outlined">menu_book</i> Libros
 
                             </a>
 
@@ -445,147 +242,100 @@
     <!-- APARTADO HEADER FIN-->
 
 
-     <!-- MAIN -->
-     <main class=" container-fluid">
+    <!-- MAIN -->
+    <main class=" container-fluid">
 
-        <!-- BANNER INCIO-->
+          <!-- BANNER INCIO-->
         <div class="row ">
             <div class="col-10 m-3  ">
                 <div class="alert alert-secondary" role="alert">
-                    DANTE
+                    ROPA
                 </div>
             </div>
         </div>
         <!-- BANNER FIN-->
 
 
-        <!-- BOTON DE CELULAR MODO FILTRO   -->
-        <div class=" row d-block d-sm-block d-md-none  m-3">
-
-            <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
-            <button class=" btn btn-dark w-100 text-center " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="bi bi-cart "></i>
-                Filtros
-            </button>
-            <!-- BOTON DE CELULAR MODO filtro  FIN   -->
-
-
-            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA CUANDO SEA CELULAR  -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent3">
-                <!-- UL PARA LOS FILTROS   -->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                <!-- UL PARA QUE LOS FILTROS  FINAL FIN  -->
-
-                <!-- CONTENEDOR DONDE PONEMOS LOS FILTROS CELULAR    -->
-                <div class="d-flex-column">
-                    <ul class="navbar-nav me-auto mb-1 mb-lg-0 ">
-
-                        <!-- NAV IZQ  -->
-                        <div class="">
-                            <nav class=" d-flex-column  text-center  ">
-                                <!-- CONTENEDOR FILTROS INCIO-->
-                                <div class=" container ">
-                                    <h4 class="">Filtros:</h4>
-                                    <!-- Filtros-->
-                                </div>
-
-                                <!-- Inputs de tipo select para realizar busquedas -->
-                                <div class="row">
-
-                                    <div class="col-12  mb-2 ">
-                                        <select class="form-control" aria-label="Default select example">
-                                            <option selected>Medida</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-
-                                    </div>
-
-                                    <div class="col-12  mb-2 ">
-                                        <select class="form-control mb-2" aria-label="Default select example">
-                                            <option selected>Color</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-
-                                    </div>
-
-                                    <div class="col-12 text-center  ">
-                                        <button type="button" class="btn btn-secondary"><i
-                                                class="fa-solid fa-filter"></i></button>
-                                    </div>
-                                </div>
-
-                                <!-- CONTENEDOR FILTROS FIN-->
-
-
-
-                        </div>
-
-
-
-                    </ul>
-                </div>
-                <!-- CONTENEDOR DONDE PONEMOS LOS FILTROS CELULAR FIN    -->
-
-
-            </div>
-            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
-
-        </div>
-        <!-- BOTON DE CELULAR MODO FILTRO  FIN -->
-
-        <!-- NAV IZQ WINDOW  -->
+         <!-- CONTENEDOR PRINCIPAL -->
         <div class="row ">
-            <div class="d-none d-sm-none d-md-block col-sm-12 col-xl-2   ">
+            <div class=" col-sm-12 col-xl-2   ">
+
+                <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
+                <button class=" btn btn-dark w-100 text-center mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-cart "></i>
+                    Filtros
+                </button>
+                <!-- BOTON DE CELULAR MODO filtro  FIN   -->
 
                 <!-- CONTENEDOR FILTROS INCIO-->
                 <div class=" ">
-                    
-                    <div class=" container py-5">
-                        <h4 class="">Filtros:</h4>
 
 
-                        <!-- Filtros-->
-                    </div>
 
                     <!-- Inputs de tipo select para realizar busquedas -->
 
                     <!-- SCROLL Y SIRVE PARA DECIRLE QUE TAMAÑANO HAY SCROLL POR SI SON MUCHOS FILTROS -->
                     <div class="row scroll-y ">
-                        <form action="">
-                            <div class="col-sm-4  col-xl-12 col-md-12  mb-2 ">
-                                <p class="text-warning text-left">Medida</p>
+                        <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA CUANDO SEA CELULAR  -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+                            <!-- UL PARA LOS FILTROS   -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                            <!-- UL PARA QUE LOS FILTROS  FINAL FIN  -->
 
-                                <hr class="text-warning " style="height: 3px;" />
-                                <select class="form-control mb-2" aria-label="Default select example">
-                                    <option selected>Medida</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                            <!-- CONTENEDOR DONDE PONEMOS LOS FILTROS CELULAR    -->
+                            <div class="d-flex-column">
+                                <ul class="navbar-nav me-auto mb-1 mb-lg-0 ">
 
-                                <select class="form-control" aria-label="Default select example">
-                                    <option selected>Color</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
+                                    <!-- NAV IZQ  -->
+                                    <div class="">
+                                        <nav class=" d-flex-column  text-center   ">
+                                            <!-- CONTENEDOR FILTROS INCIO-->
+                                           
+                                            <!-- Inputs de tipo select para realizar busquedas -->
+                                            <div class="row">
 
+                                                <div class="col-12  mb-2 ">
+                                                    <select class="form-control" aria-label="Default select example">
+                                                        <option selected>Medida</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+
+                                                </div>
+
+                                                <div class="col-12  mb-2 text-center ">
+                                                    <select class="form-control" aria-label="Default select example">
+                                                        <option selected>Color</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+
+                                                </div>
+
+                                                <div class="col-12 text-center  ">
+                                                    <button type="button" class="btn btn-secondary">
+                                                        <i
+                                                            class="fa-solid fa-filter"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <!-- CONTENEDOR FILTROS FIN-->
+                                    </div>
+
+
+
+                                </ul>
                             </div>
+                            <!-- CONTENEDOR DONDE PONEMOS LOS FILTROS CELULAR FIN    -->
 
 
-
-
-                            <div class="col-sm-4  col-xl-12 col-md-12 text-center  ">
-                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-filter"></i></button>
-                            </div>
-
-                        </form>
+                        </div>
+                        <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
 
                     </div>
                 </div>
@@ -608,6 +358,10 @@
                 <!-- Contenedor padre de todas las tarjetas de productos -->
                 <div class="tab-content w-100 h-100" id="pills-tabContent">
                     <!-- Productos segmentados segun su categoria -->
+              
+
+
+                    <!-- Productos segmentados segun su categoria -->
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                         <section>
                             <div class="text-center container py-5">
@@ -619,15 +373,15 @@
                                             <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                                                 data-mdb-ripple-color="light">
                                                 <img style="height: 20em;"
-                                                    src="/static/img/taza_roja.JPG"
+                                                    src="static/img/souvenir.png"
                                                     class="w-100" />
 
 
-                                                <a href="/producto_detalle.html">
+                                                <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i
-                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
                                                         </div>
                                                     </div>
                                                     <div class="hover-overlay">
@@ -639,7 +393,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="text-reset">
-                                                    <h5 class="card-title mb-3">TAZA FACPYANA</h5>
+                                                    <h5 class="card-title mb-3">SOUVENIR</h5>
                                                 </div>
                                                 <div href="" class="text-reset">
                                                     <p>Descripcion</p>
@@ -656,13 +410,13 @@
                                             <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                                                 data-mdb-ripple-color="light">
                                                 <img style="height: 20em;"
-                                                    src="/static/img/yuki_facpya.JPG"
+                                                    src="static/img/souvenir.png"
                                                     class="w-100" />
-                                                <a href="/producto_detalle.html">
+                                                <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i
-                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
                                                         </div>
                                                     </div>
                                                     <div class="hover-overlay">
@@ -674,7 +428,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="text-reset">
-                                                    <h5 class="card-title mb-3">Termo Facpyano</h5>
+                                                    <h5 class="card-title mb-3">SOUVENIR FAPYANO</h5>
                                                 </div>
                                                 <div class="text-reset">
                                                     <p>Desripcion</p>
@@ -691,13 +445,13 @@
                                         <div class="card card-flyer">
                                             <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
                                                 <img style="height: 20em;"
-                                                    src="/static/img/termo_facpya.JPG"
+                                                    src="static/img/souvenir.png"
                                                     class="w-100" />
-                                                <a href="/producto_detalle.html">
+                                                <a href="productoDetalle.aspx">
                                                     <div class="mask">
                                                         <div class="d-flex justify-content-end align-items-end h-100">
                                                             <h5><span class="badge bg-danger ms-2"><i
-                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
                                                         </div>
                                                     </div>
                                                     <div class="hover-overlay">
@@ -709,7 +463,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="text-reset">
-                                                    <h5 class="card-title mb-3">TERMO FACPYA</h5>
+                                                    <h5 class="card-title mb-3">SOUVENIR EFEL</h5>
                                                 </div>
                                                 <div class="text-reset">
                                                     <p>Descripcion</p>
@@ -726,7 +480,6 @@
                         </section>
                     </div>
 
-                   
 
                 </div>
 
@@ -735,46 +488,44 @@
 
             </div>
         </div>
-    
 
-    
-    
 
-    
+
+
 
 
     </main>
     <!-- MAIN -->
 
     <!-- Footer -->
-     <!-- Footer -->
-     <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <!-- Footer -->
+    <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="bi bi-caret-up-fill simboloFlecha"></i>
-      </button>
-      <footer class="collapse bg-secondary text-light text-center" id="collapseExample">
+    </button>
+    <footer class="collapse bg-secondary text-light text-center" id="collapseExample">
         <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
         <!-- Grid container -->
         <div class="container">
-          <!-- Section: Social media -->
-          <section class="mb-4 row">
-            <!-- Linea izquierda -->
-            <div class="line line-left col"></div>
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-facebook"></i></a>
-            <!-- Whatsapp -->
-            <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
-            <!-- Linea derecha -->
-            <div class="line line-right col"></div>
-          </section>
-          <!-- Section: Text -->
-          <section class="mb-4">
-            <p class="pb-3">
-              Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
-            </p>
-          </section>
-        <!-- Copyright -->
-      </footer>
-      <script src="../static/js/footer.js"></script>
+            <!-- Section: Social media -->
+            <section class="mb-4 row">
+                <!-- Linea izquierda -->
+                <div class="line line-left col"></div>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
+                <!-- Linea derecha -->
+                <div class="line line-right col"></div>
+            </section>
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p class="pb-3">
+                    Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
+                </p>
+            </section>
+            <!-- Copyright -->
+    </footer>
+    <script src="../static/js/footer.js"></script>
     <!-- Footer -->
 </body>
 

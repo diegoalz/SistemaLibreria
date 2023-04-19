@@ -348,11 +348,6 @@
                         <!-- FIN LI-->
 
                         <!-- INICIO LI-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-symbols-outlined"> pets</i>Dante </a>
-                        </li>
-
-                        <!-- INICIO LI-->
                         <li class="nav-item dropdown ">
                             <!-- INICIO DROPDOWN-->
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->

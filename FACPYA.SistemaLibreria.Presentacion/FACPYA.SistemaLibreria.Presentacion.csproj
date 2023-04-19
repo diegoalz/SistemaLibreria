@@ -75,6 +75,8 @@
     <Content Include="envio.aspx" />
     <Content Include="IniciarSesion.aspx" />
     <Content Include="Libros.aspx" />
+    <Content Include="MiCuenta.aspx" />
+    <Content Include="MisPedidos.aspx" />
     <Content Include="Ropa.aspx" />
     <Content Include="Souvenirs.aspx" />
     <Content Include="static\css\animaciones.css" />
@@ -184,6 +186,20 @@
     </Compile>
     <Compile Include="metodoPago.aspx.designer.cs">
       <DependentUpon>metodoPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MiCuenta.aspx.cs">
+      <DependentUpon>MiCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiCuenta.aspx.designer.cs">
+      <DependentUpon>MiCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MisPedidos.aspx.cs">
+      <DependentUpon>MisPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisPedidos.aspx.designer.cs">
+      <DependentUpon>MisPedidos.aspx</DependentUpon>
     </Compile>
     <Compile Include="pago.aspx.cs">
       <DependentUpon>pago.aspx</DependentUpon>

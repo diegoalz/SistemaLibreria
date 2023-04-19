@@ -254,7 +254,7 @@
                     <div class="">
                         <div class="container-fluid">
                             <div class="navbar-brand text-center mb-3">
-                                <img src="/static/img/estatus3.png" class="w-100" alt="Bootstrap" width="" height="">
+                                <img src="/static/img/es3.png" class="w-50" alt="Bootstrap" width="" height="">
                             </div>
 
                         </div>
@@ -493,7 +493,7 @@
                 <div class="col-xl-12 col-sm-12 text-center ">
                     <div class=" ">
                    
-                        <a  href="" class="btn btn-danger w-100 boton cinco">
+                        <a  href="MisPedidos.aspx" class="btn btn-danger w-100 boton cinco">
                             <div class="icono">
                                 <i class="bi bi-arrow-right"></i>
                             </div>

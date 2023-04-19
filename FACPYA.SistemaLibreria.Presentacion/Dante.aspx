@@ -39,7 +39,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <title>Dante</title>
 </head>
-<body class="bg-light letra ">
+<body class="bg-light letra container-fluid ">
 
 
 

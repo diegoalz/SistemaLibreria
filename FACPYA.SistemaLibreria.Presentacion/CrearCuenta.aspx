@@ -26,7 +26,7 @@
         <title>Crear Cuenta</title>
     </head>
 <!-- INICIO BODY  -->
-<body class="bg-light letra">
+<body class="bg-light letra container-fluid">
 
     <!-- APARTADO HEADER -->
     <header>

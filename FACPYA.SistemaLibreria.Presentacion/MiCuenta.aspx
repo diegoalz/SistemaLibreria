@@ -20,6 +20,10 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="/static/css/footer.css">
     <link rel="stylesheet" href="/static/css/index.css">
@@ -77,39 +81,42 @@
                 <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown2">
 
-                    <!-- INICIO UL-->
+                   <!-- INICIO UL-->
                     <ul class="navbar-nav m-3">
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="Index.aspx"><i
-                                class="material-symbols-outlined">home</i>Inicio
+                            <a class="nav-link  " aria-current="page" href="Index.aspx">
+                              <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
                             </a>
                         </li>
                         <!-- FIN LI-->
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link" href="Dante.aspx"><i class="material-symbols-outlined">pets</i>Dante </a>
+                            <a class="nav-link " aria-current="page" href="Dante.aspx">
+                              <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
+
+                            </a>
                         </li>
 
                         <!-- INICIO LI-->
-                        <li class="nav-item dropdown  ">
+                        <li class="nav-item dropdown   ">
                             <!-- INICIO DROPDOWN-->
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
-                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined">styler</i> Ropa
+                               <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span>
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
 
                             <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
-                            <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="Ropa.aspx">Ropa</a></li>
-                                <li><a class="dropdown-item" href="#">Gorras</a></li>
-                                <li><a class="dropdown-item" href="#">Playeras</a></li>
+                            <ul class="dropdown-menu ">
+                                <li class="dropdown-divider "></li>
+                                <li><a class="dropdown-item" href="#"><span class="p-1">Ropa</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span class="p-1">Gorras</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span class="p-1">Playeras</span></a></li>
                             </ul>
                             <!-- FIN UL DE LOS OPCIONES DEL DROPDOWN-->
 
@@ -119,27 +126,27 @@
 
                         <!-- INICIO LI-->
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined">styler</i> Souvenirs
+                              <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span>
 
                             </a>
                             <ul class="dropdown-menu">
                                 <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="Souvenirs.aspx">Souvenirs</a></li>
-                                <li><a class="dropdown-item" href="#">Plumas</a></li>
-                                <li><a class="dropdown-item" href="#">Tazas</a></li>
+                                <li><a class="dropdown-item" href="Souvenirs.aspx"><span class="p-1">Souvenirs</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span class="p-1">Plumas</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span class="p-1">Tazas</span></a></li>
                             </ul>
                         </li>
                         <!-- FIN LI-->
 
                         <!-- INICIO LI-->
-                        <li class="nav-item dropdown ">
+                        <li class="nav-item dropdown   ">
                             <!-- INICIO DROPDOWN-->
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined">menu_book</i> Libros
+                               <i class="fa-solid fa-book"></i> Libros
 
                             </a>
 
@@ -147,8 +154,8 @@
 
                             <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
 
-                            <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
+                            <ul class="dropdown-menu  m-3">
+                                <li class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="Libros.aspx">Libros</a></li>
                                 <li><a class="dropdown-item" href="#">Contabilidad</a></li>
                                 <li><a class="dropdown-item" href="#">Derecho</a></li>
@@ -160,6 +167,7 @@
 
                     </ul>
                     <!-- FIN UL-->
+
 
 
 

@@ -79,8 +79,6 @@
     <Content Include="MisPedidos.aspx" />
     <Content Include="Ropa.aspx" />
     <Content Include="Souvenirs.aspx" />
-    <Content Include="static\css\animaciones.css" />
-    <Content Include="static\css\barraCabecera.css" />
     <Content Include="static\css\botones.css" />
     <Content Include="static\css\card.css" />
     <Content Include="static\css\carussel.css" />
@@ -90,7 +88,6 @@
     <Content Include="metodoPago.aspx" />
     <Content Include="pago.aspx" />
     <Content Include="productoDetalle.aspx" />
-    <Content Include="static\css\scroll.css" />
     <Content Include="static\img\anuncio1.jpg" />
     <Content Include="static\img\anuncio2.jpg" />
     <Content Include="static\img\anuncio3.jpg" />
@@ -98,10 +95,6 @@
     <Content Include="static\img\dante.PNG" />
     <Content Include="static\img\dante2.png" />
     <Content Include="static\img\elefante.png" />
-    <Content Include="static\img\estatus0.png" />
-    <Content Include="static\img\estatus1.png" />
-    <Content Include="static\img\estatus2.png" />
-    <Content Include="static\img\estatus3.png" />
     <Content Include="static\img\iniciarsesion.jpg" />
     <Content Include="static\img\libro.png" />
     <Content Include="static\img\logo_facpya.png" />

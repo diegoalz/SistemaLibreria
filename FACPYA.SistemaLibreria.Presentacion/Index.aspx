@@ -88,17 +88,17 @@
 
                             <li class="nav-item">
                                 
-                                <a class=" btn  " href="CrearCuenta.aspx" runat="server">Crear Cuenta</a>
+                                <a class=" btn text-center " href="CrearCuenta.aspx" runat="server"><i class="fa-solid fa-plus"><span class="p-2">Crear Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item">
                                   
-                                <a class=" btn  " href="IniciarSesion.aspx" runat="server">Ingresar</a>
+                                <a class=" btn text-center  " href="IniciarSesion.aspx" runat="server"><i class="fa-solid fa-right-to-bracket"><span class="p-2">Ingresar</span></i></a>
                             </li>
 
                             <li class="nav-item">
                                  
-                                <a class=" btn  " href="/CUENTA/miCuenta.html">Mi Cuenta</a>
+                                <a class=" btn text-center  " href="/CUENTA/miCuenta.html"><i class="fa-solid fa-user"><span class="p-2">Mi Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item  ">
@@ -107,9 +107,9 @@
                                     <!-- BTN ACTIVAR MODAL CARRITO     -->
                                     <a class="btn  text-center " id="btnAgregarPrestadorMenu" data-bs-toggle="modal"
                                         data-bs-target="#myModal" aria-atomic="False">
-                                        <i class="bi bi-cart "></i>
+                                        <i class="fa-solid fa-cart-shopping"><span class="p-2">Carrito</span></i>
 
-
+                                      
                                     </a>
                                 </div>
 
@@ -333,16 +333,15 @@
                 <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
 
                 <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+                <div class="collapse navbar-collapse " id="navbarNavDropdown2">
 
                     <!-- INICIO UL-->
-                    <ul class="navbar-nav m-3">
+                    <ul class="navbar-nav m-2 ">
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="#">
-                                 <i class="material-symbols-outlined"> 
-                                    home</i>Inicio
+                            <a class="nav-link active  " aria-current="page" href="#">
+                               <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
                             </a>
                         </li>
                         <!-- FIN LI-->
@@ -353,14 +352,14 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Ropa
+                                 <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span>
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
 
                             <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
                             <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
+                                <li class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Camisas</a></li>
                                 <li><a class="dropdown-item" href="#">Gorras</a></li>
                                 <li><a class="dropdown-item" href="#">Playeras</a></li>
@@ -375,11 +374,11 @@
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Souvenirs
+                                <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span>
 
                             </a>
                             <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
+                                <li class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Llaveros</a></li>
                                 <li><a class="dropdown-item" href="#">Plumas</a></li>
                                 <li><a class="dropdown-item" href="#">Tazas</a></li>
@@ -393,7 +392,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="material-symbols-outlined"> menu_book</i> Libros
+                               <i class="fa-solid fa-book"></i> Libros
 
                             </a>
 
@@ -533,29 +532,29 @@
         <div class="mt-3">
             <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a href="Index.aspx"><button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill"
+                    <a href="Index.aspx"><div class="nav-link active m-3" id="pills-all-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
-                            aria-selected="true">Todo<i class="fa-solid fa-earth-oceania"></i></button></a>
+                            aria-selected="true"><i class="fa-solid fa-house"></i><span class="p-1">Todo</span></div></a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Dante.aspx"><button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+                    <a href="Dante.aspx"><div  class="nav-link m-3" id="pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="false">Dante<i class="fa-solid fa-mattress-pillow"></i></button></a>
+                            aria-selected="false">  <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span></div></a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Ropa.aspx"><button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                    <a href="Ropa.aspx"><div class="nav-link m-3" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Ropa<i class="fa-solid fa-shirt"></i></button></a>
+                            aria-selected="false">   <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span></div></a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Souvenirs.aspx"><button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                    <a href="Souvenirs.aspx"><div class="nav-link m-3 " id="pills-contact-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                            aria-selected="false">Souveniers<i class="fa-solid fa-shop-lock"></i></button></a>
+                            aria-selected="false">  <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span></div></a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Libros.aspx"><button class="nav-link" id="pills-books-tab" data-bs-toggle="pill"
+                    <a href="Libros.aspx"><div class="nav-link m-3" id="pills-books-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books"
-                            aria-selected="false">Libros<i class="fa-solid fa-book-bookmark"></i></button></a>
+                            aria-selected="false"> <i class="fa-solid fa-book"></i> Libros</div></a>
                 </li>
             </ul>
         </div>

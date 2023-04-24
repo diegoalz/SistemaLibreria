@@ -88,6 +88,7 @@
     <Content Include="metodoPago.aspx" />
     <Content Include="pago.aspx" />
     <Content Include="productoDetalle.aspx" />
+    <Content Include="static\css\scroll.css" />
     <Content Include="static\img\anuncio1.jpg" />
     <Content Include="static\img\anuncio2.jpg" />
     <Content Include="static\img\anuncio3.jpg" />

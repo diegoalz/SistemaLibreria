@@ -280,7 +280,7 @@
 
         <!-- CONTENEDOR FORM  -->
 
-        <form action="">
+        <form  action="">
 
             <!-- CONTENEDOR PANTALLA CENTRADA DATOS  -->
             <div class="row  justify-content-center m-2 ">
@@ -403,17 +403,14 @@
             </div>
             <!-- CONTENEDOR PANTALLA CENTRADA DATOS FIN -->
 
-
-
-            <!-- CONTENEDOR PANTALLA CENTRADA DATOS BOTONES -->
+               <!-- CONTENEDOR PANTALLA CENTRADA DATOS BOTONES -->
             <div class="row justify-content-center m-5 ">
 
 
            
-                <div class="col-xl-4 col-sm-12 text-center m-2">
+                <div class="col-xl-4 col-sm-8 text-center m-2">
 
-                    <div class="col-xl-12 col-sm-12 text-center ">
-                        <div class="">
+                    <div class="">
                        
                             <a  href="CarroCompras.aspx" class="btn btn-secondary w-100 boton cinco">
                                 <div class="icono">
@@ -424,13 +421,11 @@
                             
             
                         </div>
-                    </div>
                 </div>
 
                 
-                <div class="col-xl-4 col-sm-12 text-center m-2">
-                    <div class="col-xl-12 col-sm-12 text-center ">
-                        <div class=" ">
+                <div class="col-xl-4 col-sm-8 text-center m-2">
+                    <div class=" ">
                        
                             <a  href="envio.aspx" class="btn btn-danger w-100 boton cinco">
                                 <div class="icono">
@@ -441,7 +436,6 @@
                             
             
                         </div>
-                    </div>
                 </div>
 
                 
@@ -454,6 +448,8 @@
 
             </div>
             <!-- CONTENEDOR PANTALLA CENTRADA DATOS BOTONES FIN-->
+
+         
 
 
         </form>

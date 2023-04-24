@@ -1,0 +1,10 @@
+﻿.scroll {
+    width: 8rm;
+    overflow-x: scroll;
+}
+
+.scroll-y {
+    height: 500px;
+    overflow-y: scroll;
+}
+

@@ -333,10 +333,9 @@
 
 
 
-                <div class="col-xl-4 col-sm-12 text-center m-2">
+                <div class="col-xl-4 col-sm-8 text-center m-2">
 
-                    <div class="col-xl-12 col-sm-12 text-center ">
-                        <div class="">
+                     <div class="">
 
                             <a href="envio.aspx" class="btn btn-secondary w-100 boton cinco">
                                 <div class="icono">
@@ -347,13 +346,11 @@
 
 
                         </div>
-                    </div>
                 </div>
 
 
-                <div class="col-xl-4 col-sm-12 text-center m-2">
-                    <div class="col-xl-12 col-sm-12 text-center ">
-                        <div class=" ">
+                <div class="col-xl-4 col-sm-8 text-center m-2">
+                      <div class=" ">
 
                             <a href="pago.aspx" class="btn btn-danger w-100 boton cinco">
                                 <div class="icono">
@@ -364,7 +361,6 @@
 
 
                         </div>
-                    </div>
                 </div>
 
 

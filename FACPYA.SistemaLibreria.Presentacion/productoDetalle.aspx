@@ -358,18 +358,21 @@
 
                                                         </div>
 
+
+                                                         <div class="col-12 mt-3">
+                                                            <a href="CarroCompras.aspx" class="btn btn-danger w-100 p-3 boton cinco">
+                                                                <div class="icono">
+                                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                                </div>
+                                                                <span>Agregar al Carrito</span>
+                                                            </a>
+
+                                                         </div>
+
                                                     </div>
 
                                                 </div>
-                                                <div class="">
-                                                    <a href="CarroCompras.aspx" class="btn btn-danger w-100 p-3 boton cinco">
-                                                        <div class="icono">
-                                                            <i class="fa-solid fa-cart-shopping"></i>
-                                                        </div>
-                                                        <span>Agregar al Carrito</span>
-                                                    </a>
-
-                                                </div>
+                                              
 
 
 

@@ -387,39 +387,26 @@
 
                     </tbody>
                 </table>
-            </div>
 
+                
 
-        </div>
-
-        <!-- CONTENEDOR PANTALLA CENTRADA BOTON -->
-        <div class="row vh-100-sm justify-content-center mt-3 ">
-
-
-
-
-
-
-
-            <div class="row justify-content-center m-3 ">
-
-                <div class="col-xl-4 col-sm-12 text-center m-2">
-                    <div class=" ">
-
-                        <a href="datos.aspx" class="btn btn-danger w-100 p-3 boton cinco">
+                   <a href="datos.aspx" class="btn btn-danger w-100 p-3 boton cinco">
                             <div class="icono">
                                 <i class="bi bi-arrow-right"></i>
                             </div>
                             <span>CONTINUAR</span>
                         </a>
 
-
-                    </div>
-                </div>
-
             </div>
+
+          
+
+              
+           
+
         </div>
-        <!-- CONTENEDOR PANTALLA CENTRADA BOTON FIN -->
+
+       
 
 
     </main>

@@ -12,11 +12,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="/static/css/carussel.css">
+    
     <link rel="stylesheet" href="/static/css/botones.css">
     <link rel="stylesheet" href="/static/css/footer.css">
-    <link rel="stylesheet" href="/static/css/index.css">
-    <link rel="stylesheet" href="/static/css/barraCabecera.css" />
+    <link rel="stylesheet" href="../static/css/index.css" />
+
+
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,11 +81,13 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                <a class=" btn " href="CrearCuenta.aspx">Crear Cuenta</a>
+                                
+                                <a class=" btn text-center " href="CrearCuenta.aspx" runat="server"><i class="fa-solid fa-plus"><span class="p-2">Crear Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class=" btn  " href="IniciarSesion.aspx">Ingresar</a>
+                                  
+                                <a class=" btn text-center  " href="IniciarSesion.aspx" runat="server"><i class="fa-solid fa-right-to-bracket"><span class="p-2">Ingresar</span></i></a>
                             </li>
 
                         

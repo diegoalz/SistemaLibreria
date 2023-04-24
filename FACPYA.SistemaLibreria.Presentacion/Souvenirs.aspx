@@ -28,14 +28,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/static/css/index.css">
-    <link rel="stylesheet" href="/static/css/scroll.css">
-    <link rel="stylesheet" href="/static/css/card.css">
-    <link rel="stylesheet" href="../static/css/footer.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/card.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
     <title>SOUVENIRS</title>
 </head>
 <body class="bg-light letra container-fluid ">
@@ -88,14 +89,17 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                <a class=" btn " href="CrearCuenta.aspx">Crear Cuenta</a>
+
+                                <a class=" btn text-center " href="CrearCuenta.aspx" runat="server"><i class="fa-solid fa-plus"><span class="p-2">Crear Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class=" btn  " href="IniciarSesion.aspx">Ingresar</a>
+
+                                <a class=" btn text-center  " href="IniciarSesion.aspx" runat="server"><i class="fa-solid fa-right-to-bracket"><span class="p-2">Ingresar</span></i></a>
                             </li>
 
-                            
+
+
 
 
                         </ul>
@@ -132,7 +136,7 @@
                         <!-- INICIO LI-->
                         <li class="nav-item">
                             <a class="nav-link  " aria-current="page" href="Index.aspx">
-                              <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
+                                <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
                             </a>
                         </li>
                         <!-- FIN LI-->
@@ -140,7 +144,7 @@
                         <!-- INICIO LI-->
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="Dante.aspx">
-                              <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
+                                <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
 
                             </a>
                         </li>
@@ -149,9 +153,9 @@
                         <li class="nav-item dropdown   ">
                             <!-- INICIO DROPDOWN-->
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
-                            <a class="nav-link dropdown-toggle active " href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                               <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span>
+                                <i class="fa-solid fa-shirt"></i><span class="p-1">Ropa</span>
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
@@ -159,7 +163,7 @@
                             <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
                             <ul class="dropdown-menu ">
                                 <li class="dropdown-divider "></li>
-                                <li><a class="dropdown-item" href="#"><span class="p-1">Ropa</span></a></li>
+                                <li><a class="dropdown-item" href="Ropa.aspx"><span class="p-1">Ropa</span></a></li>
                                 <li><a class="dropdown-item" href="#"><span class="p-1">Gorras</span></a></li>
                                 <li><a class="dropdown-item" href="#"><span class="p-1">Playeras</span></a></li>
                             </ul>
@@ -171,9 +175,9 @@
 
                         <!-- INICIO LI-->
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                              <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span>
+                                <i class="fa-solid fa-hat-wizard"></i><span class="p-1">Souvenirs</span>
 
                             </a>
                             <ul class="dropdown-menu">
@@ -191,7 +195,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                               <i class="fa-solid fa-book"></i> Libros
+                                <i class="fa-solid fa-book"></i>Libros
 
                             </a>
 
@@ -248,18 +252,18 @@
     <!-- MAIN -->
     <main class=" container-fluid">
 
-          <!-- BANNER INCIO-->
+        <!-- BANNER INCIO-->
         <div class="row ">
             <div class="col-10 m-3  ">
                 <div class="alert alert-secondary" role="alert">
-                    ROPA
+                    SOUVENIRS
                 </div>
             </div>
         </div>
         <!-- BANNER FIN-->
 
 
-         <!-- CONTENEDOR PRINCIPAL -->
+        <!-- CONTENEDOR PRINCIPAL -->
         <div class="row ">
             <div class=" col-sm-12 col-xl-2   ">
 
@@ -267,7 +271,7 @@
                 <button class=" btn btn-dark w-100 text-center mb-3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false"
                     aria-label="Toggle navigation">
-                     <i class="material-symbols-outlined">filter_alt</i> Filtros
+                    <i class="material-symbols-outlined">filter_alt</i> Filtros
                 </button>
                 <!-- BOTON DE CELULAR MODO filtro  FIN   -->
 
@@ -294,7 +298,7 @@
                                     <div class="">
                                         <nav class=" d-flex-column  text-center   ">
                                             <!-- CONTENEDOR FILTROS INCIO-->
-                                           
+
                                             <!-- Inputs de tipo select para realizar busquedas -->
                                             <div class="row">
 
@@ -360,7 +364,7 @@
                 <!-- Contenedor padre de todas las tarjetas de productos -->
                 <div class="tab-content w-100 h-100" id="pills-tabContent">
                     <!-- Productos segmentados segun su categoria -->
-              
+
 
 
                     <!-- Productos segmentados segun su categoria -->

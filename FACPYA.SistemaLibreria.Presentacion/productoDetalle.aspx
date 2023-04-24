@@ -6,26 +6,27 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Producto Detalle</title>
+
+
     <!-- Importaciones Necesarias -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <link rel="stylesheet" href="/static/css/index.css">
-    <link rel="stylesheet" href="/static/css/botones.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="/static/css/footer.css">
-   
-
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/botones.css">
+    <link rel="stylesheet" href="../static/css/index.css" />
+
+
+
+
 
     <!-- Importaciones Necesarias Fin-->
 </head>
@@ -34,7 +35,7 @@
 
     <!-- APARTADO HEADER -->
     <header>
-         <!-- APARTADO DE LA LINEA ROJA -->
+        <!-- APARTADO DE LA LINEA ROJA -->
         <div class="row">
             <div class="col-12 bg-danger">
                 <p class="p-2"></p>
@@ -80,14 +81,15 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                <a class=" btn " href="CrearCuenta.aspx">Crear Cuenta</a>
+
+                                <a class=" btn text-center " href="CrearCuenta.aspx" runat="server"><i class="fa-solid fa-plus"><span class="p-2">Crear Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item">
-                                <a class=" btn  " href="IniciarSesion.aspx">Ingresar</a>
+
+                                <a class=" btn text-center  " href="IniciarSesion.aspx" runat="server"><i class="fa-solid fa-right-to-bracket"><span class="p-2">Ingresar</span></i></a>
                             </li>
 
-                        
 
 
                         </ul>
@@ -118,13 +120,13 @@
                 <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
                 <div class="collapse navbar-collapse" id="navbarNavDropdown2">
 
-                 <!-- INICIO UL-->
+                    <!-- INICIO UL-->
                     <ul class="navbar-nav m-3">
 
                         <!-- INICIO LI-->
                         <li class="nav-item">
                             <a class="nav-link  " aria-current="page" href="Index.aspx">
-                              <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
+                                <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
                             </a>
                         </li>
                         <!-- FIN LI-->
@@ -132,7 +134,7 @@
                         <!-- INICIO LI-->
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="Dante.aspx">
-                              <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
+                                <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
 
                             </a>
                         </li>
@@ -143,7 +145,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                               <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span>
+                                <i class="fa-solid fa-shirt"></i><span class="p-1">Ropa</span>
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
@@ -165,7 +167,7 @@
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                              <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span>
+                                <i class="fa-solid fa-hat-wizard"></i><span class="p-1">Souvenirs</span>
 
                             </a>
                             <ul class="dropdown-menu">
@@ -183,7 +185,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                               <i class="fa-solid fa-book"></i> Libros
+                                <i class="fa-solid fa-book"></i>Libros
 
                             </a>
 
@@ -238,7 +240,7 @@
 
 
     <main class="container-fluid">
-       
+
 
 
 
@@ -259,7 +261,7 @@
                 <div class="row vh-100-sm justify-content-center ">
                     <div class="col-xl-6 col-sm-12 mb-sm-4 ">
                         <div>
-                            <img src="/static/img/sueter.png" id="grande" class="img-fluid w-100 h-100" alt=""/>
+                            <img src="/static/img/sueter.png" id="grande" class="img-fluid w-100 h-100" alt="" />
                         </div>
 
                     </div>
@@ -269,7 +271,7 @@
                         <div class="row mt-sm-4  justify-content-around  align-items-center">
                             <div class="d-flex-sm mb-sm-3  justify-content-around">
 
-                                <form  >
+                                <form>
                                     <div class="row  ">
                                         <div class="col-12 mb-3 mb-sm-0 ">
                                             <div class="card  mb-3">
@@ -383,7 +385,7 @@
         </div>
 
 
-       
+
     </main>
 
     <!-- Footer -->

@@ -4,35 +4,33 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Pagina principal</title>
     <!-- Importaciones Necesarias -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="/static/css/carussel.css">
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
+
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+    <link rel="stylesheet" href="/static/css/carussel.css">
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/card.css">
     <link rel="stylesheet" href="/static/css/footer.css">
-    <link rel="stylesheet" href="/static/css/barraCabecera.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-
-    
 </head>
-    <!--
+<!--
     <form id="form1" runat="server">
         <div>
             Hola mundo
@@ -49,7 +47,6 @@
         <!-- PRIMER NAV  -->
         <!-- APARTADO DE LA LINEA ROJA -->
         <div class="barra">
-
         </div>
         <nav class="navbar navbar-expand-lg d-flex flex-column">
             <div class="container-fluid">
@@ -87,17 +84,17 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                             <li class="nav-item">
-                                
+
                                 <a class=" btn text-center " href="CrearCuenta.aspx" runat="server"><i class="fa-solid fa-plus"><span class="p-2">Crear Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item">
-                                  
+
                                 <a class=" btn text-center  " href="IniciarSesion.aspx" runat="server"><i class="fa-solid fa-right-to-bracket"><span class="p-2">Ingresar</span></i></a>
                             </li>
 
                             <li class="nav-item">
-                                 
+
                                 <a class=" btn text-center  " href="/CUENTA/miCuenta.html"><i class="fa-solid fa-user"><span class="p-2">Mi Cuenta</span></i></a>
                             </li>
 
@@ -109,7 +106,7 @@
                                         data-bs-target="#myModal" aria-atomic="False">
                                         <i class="fa-solid fa-cart-shopping"><span class="p-2">Carrito</span></i>
 
-                                      
+
                                     </a>
                                 </div>
 
@@ -255,7 +252,6 @@
                                                             <div class="col-lg-6  col-sm-0  p-2">
 
                                                                 <div class="">
-
                                                                 </div>
 
 
@@ -292,7 +288,7 @@
                                                         <i class="bi bi-cart "></i>
                                                     </a>
 
-                                                    <a href="/datos.html" ID="btnAgregarPrestadorModal"
+                                                    <a href="/datos.html" id="btnAgregarPrestadorModal"
                                                         class="btn btn-success ">
                                                         <i class="bi bi-wallet"></i>
                                                     </a>
@@ -341,7 +337,7 @@
                         <!-- INICIO LI-->
                         <li class="nav-item">
                             <a class="nav-link active  " aria-current="page" href="#">
-                               <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
+                                <i class="fa-solid fa-house"></i><span class="p-1">Inicio</span>
                             </a>
                         </li>
                         <!-- FIN LI-->
@@ -352,7 +348,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                 <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span>
+                                <i class="fa-solid fa-shirt"></i><span class="p-1">Ropa</span>
 
                             </a>
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
@@ -374,7 +370,7 @@
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span>
+                                <i class="fa-solid fa-hat-wizard"></i><span class="p-1">Souvenirs</span>
 
                             </a>
                             <ul class="dropdown-menu">
@@ -392,7 +388,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                               <i class="fa-solid fa-book"></i> Libros
+                                <i class="fa-solid fa-book"></i>Libros
 
                             </a>
 
@@ -439,7 +435,7 @@
 
         </nav>
         <!-- SEGUNDO NAV CATEGORIAS  FIN  -->
-    
+
 
 
     </header>
@@ -468,8 +464,6 @@
                     <div class="carousel-item active ">
                         <img src="/static/img/anuncio1.jpg" class="d-block h-50 w-100   " alt="Slide 1">
                         <div class="carousel-caption d-none d-md-block">
-
-
                         </div>
                     </div>
                     <!-- CONTENEDOR ITEM CARUSSEL FIN-->
@@ -478,7 +472,6 @@
                     <div class="carousel-item ">
                         <img src="/static/img/anuncio2.jpg" class="d-block h-50 w-100 " alt="Slide 2">
                         <div class="carousel-caption d-none d-md-block">
-
                         </div>
                     </div>
                     <!-- CONTENEDOR ITEM CARUSSEL FIN-->
@@ -487,8 +480,6 @@
                     <div class="carousel-item ">
                         <img src="/static/img/anuncio3.jpg" class="d-block  h-50 w-100  " alt="Slide 2">
                         <div class="carousel-caption d-none d-md-block">
-
-
                         </div>
                     </div>
                     <!-- CONTENEDOR ITEM CARUSSEL FIN-->
@@ -532,29 +523,49 @@
         <div class="mt-3">
             <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a href="Index.aspx"><div class="nav-link active m-3" id="pills-all-tab" data-bs-toggle="pill"
+                    <a href="Index.aspx">
+                        <div class="nav-link active m-3" id="pills-all-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
-                            aria-selected="true"><i class="fa-solid fa-house"></i><span class="p-1">Todo</span></div></a>
+                            aria-selected="true">
+                            <i class="fa-solid fa-house"></i><span class="p-1">Todo</span>
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Dante.aspx"><div  class="nav-link m-3" id="pills-home-tab" data-bs-toggle="pill"
+                    <a href="Dante.aspx">
+                        <div class="nav-link m-3" id="pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="false">  <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span></div></a>
+                            aria-selected="false">
+                            <i class="fa-solid fa-republican"></i><span class="p-1">Dante </span>
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Ropa.aspx"><div class="nav-link m-3" id="pills-profile-tab" data-bs-toggle="pill"
+                    <a href="Ropa.aspx">
+                        <div class="nav-link m-3" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">   <i class="fa-solid fa-shirt"></i><span class="p-1"> Ropa</span></div></a>
+                            aria-selected="false">
+                            <i class="fa-solid fa-shirt"></i><span class="p-1">Ropa</span>
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Souvenirs.aspx"><div class="nav-link m-3 " id="pills-contact-tab" data-bs-toggle="pill"
+                    <a href="Souvenirs.aspx">
+                        <div class="nav-link m-3 " id="pills-contact-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                            aria-selected="false">  <i class="fa-solid fa-hat-wizard"></i> <span class="p-1">Souvenirs</span></div></a>
+                            aria-selected="false">
+                            <i class="fa-solid fa-hat-wizard"></i><span class="p-1">Souvenirs</span>
+                        </div>
+                    </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Libros.aspx"><div class="nav-link m-3" id="pills-books-tab" data-bs-toggle="pill"
+                    <a href="Libros.aspx">
+                        <div class="nav-link m-3" id="pills-books-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books"
-                            aria-selected="false"> <i class="fa-solid fa-book"></i> Libros</div></a>
+                            aria-selected="false">
+                            <i class="fa-solid fa-book"></i>Libros
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -579,15 +590,13 @@
                                             class="w-100" />
 
                                         <div class="contenedor-botones">
-                                           
-                                        
                                         </div>
 
                                         <a href="productoDetalle.aspx">
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i
-                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
                                                 </div>
                                             </div>
                                             <div class="hover-overlay">
@@ -621,7 +630,7 @@
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i
-                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
                                                 </div>
                                             </div>
                                             <div class="hover-overlay">
@@ -631,7 +640,7 @@
                                         </a>
                                     </div>
                                     <div class="card-body">
-                                        <div  class="text-reset">
+                                        <div class="text-reset">
                                             <h5 class="card-title mb-3">Camiseta xs</h5>
                                         </div>
                                         <div class="text-reset">
@@ -639,7 +648,7 @@
                                         </div>
                                         <h6 class="mb-3">$61.99</h6>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                             <!-- SEPARACION PANTALLA FIN-->
@@ -655,7 +664,7 @@
                                             <div class="mask">
                                                 <div class="d-flex justify-content-end align-items-end h-100">
                                                     <h5><span class="badge bg-danger ms-2"><i
-                                                                class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
                                                 </div>
                                             </div>
                                             <div class="hover-overlay">
@@ -684,16 +693,16 @@
             </div>
         </div>
     </main>
-        <!-- Inicio del footer -->
-        <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            <i class="bi bi-caret-up-fill simboloFlecha"></i>
-          </button>
-          <footer class="collapse bg-secondary text-light" id="collapseExample">
-            <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
-            <!-- Grid container -->
-            <div class="container">
-              <!-- Section: Social media -->
-              <section class="mb-4 row">
+    <!-- Inicio del footer -->
+    <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <i class="bi bi-caret-up-fill simboloFlecha"></i>
+    </button>
+    <footer class="collapse bg-secondary text-light" id="collapseExample">
+        <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
+        <!-- Grid container -->
+        <div class="container">
+            <!-- Section: Social media -->
+            <section class="mb-4 row">
                 <!-- Linea izquierda -->
                 <div class="line line-left col"></div>
                 <!-- Facebook -->
@@ -702,15 +711,15 @@
                 <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
                 <!-- Linea derecha -->
                 <div class="line line-right col"></div>
-              </section>
-              <!-- Section: Text -->
-              <section class="mb-4">
+            </section>
+            <!-- Section: Text -->
+            <section class="mb-4">
                 <p class="pb-3">
-                  Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
+                    Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
                 </p>
-              </section>
+            </section>
             <!-- Copyright -->
-          </footer>
-           <script src="static/js/footer.js"></script>
+    </footer>
+    <script src="static/js/footer.js"></script>
 </body>
 </html>

@@ -254,9 +254,9 @@
                     </div>
                 </div>
 
-                
 
-                
+
+
 
                 <div class="row ">
                     <div class="form-floating ">
@@ -276,48 +276,48 @@
 
 
 
-       
 
-           <!-- CONTENEDOR DER -->
+
+        <!-- CONTENEDOR DER -->
         <div class="col-sm-12 col-xl-4 d-flex justify-content-center align-items-center">
             <div class="">
                 <img src="/static/img/perfil.png" class="w-100 h-100 " alt="Bootstrap">
             </div>
         </div>
-        
 
-      
+
+
     </main>
     <!-- MAIN FIN-->
     <!-- Footer -->
     <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <i class="bi bi-caret-up-fill simboloFlecha"></i>
-      </button>
-      <footer class="collapse bg-secondary text-light text-center" id="collapseExample">
+    </button>
+    <footer class="collapse bg-secondary text-light text-center" id="collapseExample">
         <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
         <!-- Grid container -->
         <div class="container">
-          <!-- Section: Social media -->
-          <section class="mb-4 row">
-            <!-- Linea izquierda -->
-            <div class="line line-left col"></div>
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-facebook"></i></a>
-            <!-- Whatsapp -->
-            <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
-            <!-- Linea derecha -->
-            <div class="line line-right col"></div>
-          </section>
-          <!-- Section: Text -->
-          <section class="mb-4">
-            <p class="pb-3">
-              Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
-            </p>
-          </section>
+            <!-- Section: Social media -->
+            <section class="mb-4 row">
+                <!-- Linea izquierda -->
+                <div class="line line-left col"></div>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1 boton-redes" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
+                <!-- Linea derecha -->
+                <div class="line line-right col"></div>
+            </section>
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p class="pb-3">
+                    Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
+                </p>
+            </section>
         </div>
         <!-- Copyright -->
-      </footer>
-      <script src="../static/js/footer.js"></script>
+    </footer>
+    <script src="../static/js/footer.js"></script>
 
 </body>
 </html>

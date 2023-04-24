@@ -413,6 +413,8 @@
                     <div class="">
                        
                             <a  href="CarroCompras.aspx" class="btn btn-secondary w-100 boton cinco">
+
+
                                 <div class="icono">
                                     <i class="bi bi-arrow-left"></i>
                                 </div>

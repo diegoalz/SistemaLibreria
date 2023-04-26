@@ -46,8 +46,13 @@
 
         <!-- PRIMER NAV  -->
         <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="barra">
+       <!-- APARTADO DE LA LINEA ROJA -->
+        <div class="row p-0 m-0">
+            <div class="col-12 bg-danger">
+                <p class="p-2"></p>
+            </div>
         </div>
+        <!-- APARTADO DE LA LINEA ROJA FIN-->
         <nav class="navbar navbar-expand-lg d-flex flex-column">
             <div class="container-fluid">
                 <!-- IMAGEN FACPYA LOGO   -->
@@ -95,7 +100,7 @@
 
                             <li class="nav-item">
 
-                                <a class=" btn text-center  " href="/CUENTA/miCuenta.html"><i class="fa-solid fa-user"><span class="p-2">Mi Cuenta</span></i></a>
+                                <a class=" btn text-center  " href="MiCuenta.aspx"><i class="fa-solid fa-user"><span class="p-2">Mi Cuenta</span></i></a>
                             </li>
 
                             <li class="nav-item  ">
@@ -388,7 +393,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="fa-solid fa-book"></i>Libros
+                                <i class="fa-solid fa-book"></i><span class="p-1">Libros</span>
 
                             </a>
 
@@ -397,7 +402,7 @@
                             <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
 
                             <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
+                                <li class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Administracion</a></li>
                                 <li><a class="dropdown-item" href="#">Contabilidad</a></li>
                                 <li><a class="dropdown-item" href="#">Derecho</a></li>
@@ -563,7 +568,7 @@
                         <div class="nav-link m-3" id="pills-books-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books"
                             aria-selected="false">
-                            <i class="fa-solid fa-book"></i>Libros
+                            <i class="fa-solid fa-book"></i><span class="p-1">Libros</span>
                         </div>
                     </a>
                 </li>

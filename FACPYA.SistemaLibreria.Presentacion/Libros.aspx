@@ -46,19 +46,18 @@
 
     <title>Libros</title>
 </head>
-<body class="bg-light letra  container-fluid">
+<body class="bg-light letra  ">
 
 
     <!-- APARTADO HEADER -->
     <header>
-        <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="row">
+       <!-- APARTADO DE LA LINEA ROJA -->
+        <div class="row p-0 m-0">
             <div class="col-12 bg-danger">
                 <p class="p-2"></p>
             </div>
         </div>
         <!-- APARTADO DE LA LINEA ROJA FIN-->
-
         <!-- PRIMER NAV  -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -203,7 +202,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle active " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="fa-solid fa-book"></i>Libros
+                                <i class="fa-solid fa-book"></i><span class="p-1">Libros</span>
 
                             </a>
 

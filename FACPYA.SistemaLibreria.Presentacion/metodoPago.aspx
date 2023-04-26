@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="/static/css/footer.css">
 </head>
 <!-- INICIO BODY  -->
-<body class="bg-light letra container-fluid">
+<body class="bg-light letra ">
     <!-- APARTADO HEADER -->
     <header>
-        <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="row">
+         <!-- APARTADO DE LA LINEA ROJA -->
+        <div class="row p-0 m-0">
             <div class="col-12 bg-danger">
                 <p class="p-2"></p>
             </div>
@@ -179,7 +179,7 @@
                             <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <i class="fa-solid fa-book"></i>Libros
+                                <i class="fa-solid fa-book"></i><span class="p-1">Libros</span>
 
                             </a>
 
@@ -234,11 +234,11 @@
     <!-- APARTADO HEADER FIN-->
 
     <!-- MAIN INICIO-->
-    <main>
+    <main class="container-fluid">
 
         <!-- BANNER -->
         <div class="row ">
-            <div class="col-10 m-3  ">
+            <div class="col-10   ">
                 <div class="alert alert-secondary" role="alert">
                     PAGO
                 </div>
